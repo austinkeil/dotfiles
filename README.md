@@ -13,6 +13,8 @@ rsync --recursive --verbose --exclude <span class="s1">'.git'</span> tmpdotfiles
 rm -r tmpdotfiles</code></pre></figure>
 <p>There you go. No symlink mess.</p>
 
-The excerpt above was taken from an article by anandpiyer which shows how to maintain a dotfiles repository without symlinks.\n
-Original Article: https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles.html \n
+The excerpt above was taken from an article by anandpiyer which shows how to maintain a dotfiles repository without symlinks.
+
+Original Article: https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles.html
+
 Author's Repo: https://github.com/anandpiyer/.dotfiles/blob/master/.dotfiles/README.md
