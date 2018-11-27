@@ -1,6 +1,5 @@
 # My Dotfiles!
-<h2 id="setting-up-a-new-machine">Setting Up a New Machine</h2>
-<h2>        -anandpiyer</h2>
+<h2 id="setting-up-a-new-machine">Setting Up a New Machine by anandpiyer</h2>
 <p>To set up a new machine to use your version controlled config files, all you
 need to do is to clone the repository on your new machine telling git that it is
 a bare repository:</p>
