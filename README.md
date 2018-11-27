@@ -12,7 +12,9 @@ is to clone to a temporary directory, and then delete it once you are done:</p>
 rsync --recursive --verbose --exclude <span class="s1">'.git'</span> tmpdotfiles/ <span class="nv">$HOME</span>/
 rm -r tmpdotfiles</code></pre></figure>
 <p>There you go. No symlink mess.</p>
----
+
+______
+
 The excerpt above was taken from an article by anandpiyer which shows how to maintain a dotfiles repository without symlinks.
 
 Original Article: https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles.html
