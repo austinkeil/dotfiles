@@ -6,7 +6,6 @@ rsync --recursive --verbose --exclude <span class="s1">'.git'</span> tmpdotfiles
 rm -r tmpdotfiles</code></pre></figure>
 ______
 Helpful links for version controlling dotfiles without symlinks:
-______
 https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles.html
 
 https://github.com/anandpiyer/.dotfiles/blob/master/.dotfiles/README.md
